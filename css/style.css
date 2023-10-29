@@ -3186,7 +3186,7 @@ input:checked+.slider:before {
         width: 200px;
         background: transparent;
         padding: 3px;
-        padding-left: 5px;
+        padding-right: 5px;
     }
 
     /* Header Popup 2 */

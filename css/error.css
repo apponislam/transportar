@@ -159,7 +159,7 @@ a.nav-link {
     font-size: 13px;
     font-weight: 700;
     padding: 12px 12px !important;
-    color: black;
+    color: white;
     transition: 0.4s;
 }
 
@@ -345,6 +345,20 @@ a.nav-link {
     background-color: #f8f8f8;
     border: 1px solid #f8f8f8;
     margin-bottom: 8px;
+    transition: 0.4s;
+}
+
+.langbox:hover {
+    border: solid 1px #cdac61;
+    background-color: rgba(205, 172, 97, 0.16);
+}
+
+.langbox:hover .langboxicon {
+    background: #cdac61;
+}
+
+.langbox:hover .langboxicon span {
+    color: white;
 }
 
 .langboxtext h5 {
@@ -369,6 +383,7 @@ a.nav-link {
     justify-content: center;
     background: rgba(0, 0, 0, 0.14);
     border-radius: 50%;
+    transition: 0.4s;
 }
 
 .langboxicon img {
@@ -379,6 +394,7 @@ a.nav-link {
 .langboxicon span {
     font-size: 16px;
     color: black;
+    transition: 0.4s;
 }
 
 .langbtm h1 {
@@ -417,7 +433,7 @@ a.nav-link {
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 0;
-    margin-right: 26px;
+    margin-left: 26px;
 }
 
 .dropdown3 button i {
@@ -473,9 +489,9 @@ a.nav-link {
     width: 400px;
     background: transparent;
     border: none;
-    border-left: 2px solid #ff9c1a;
+    border-right: 2px solid #ff9c1a;
     padding: 3px;
-    padding-left: 5px;
+    padding-right: 5px;
     font-size: 16px;
     font-weight: 700;
     color: rgba(60, 60, 67, 0.6);
@@ -496,7 +512,7 @@ a.nav-link {
 
 .menuicon {
     width: 20px;
-    margin-right: 18px;
+    margin-left: 18px;
 }
 
 .navmen {
@@ -1101,6 +1117,30 @@ input:checked+.slider:before {
         display: none;
     }
 
+    .dropdown1 .dropdown-menu[data-bs-popper] {
+        top: 125%;
+        right: -150px;
+        padding: 0;
+        margin: 0;
+        width: 196px;
+        border-radius: 14px;
+        left: 0;
+    }
+
+    .dropdown2 .dropdown-menu[data-bs-popper] {
+        top: 130%;
+        left: 0;
+        width: 252px;
+        right: -110px;
+    }
+
+    .dropdown4 .dropdown-menu[data-bs-popper] {
+        top: 135%;
+        left: auto;
+        right: -210px;
+        width: 252px;
+    }
+
     nav.navbar.navbar-expand-lg {
         padding: 10px 0;
     }
@@ -1200,7 +1240,7 @@ input:checked+.slider:before {
     }
 
     .nav-item {
-        text-align: left;
+        text-align: right;
     }
 
     .rightnav {
@@ -1341,7 +1381,7 @@ input:checked+.slider:before {
         margin: 0;
         width: 196px;
         border-radius: 14px;
-        right: 0;
+        right: -155px;
     }
 
     .dropdown2 .dropdown-menu[data-bs-popper] {
@@ -1356,8 +1396,8 @@ input:checked+.slider:before {
 
     .dropdown4 .dropdown-menu[data-bs-popper] {
         top: 0;
-        left: auto;
-        right: 2px;
+        left: 0;
+        right: -304px;
         padding: 0;
         margin: 0;
         width: 350px;
@@ -1397,7 +1437,7 @@ input:checked+.slider:before {
         width: 200px;
         background: transparent;
         padding: 3px;
-        padding-left: 5px;
+        padding-right: 5px;
     }
 
     /* Header Popup 2 */
