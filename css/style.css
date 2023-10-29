@@ -529,7 +529,7 @@ a.nav-link {
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 0;
-    margin-right: 26px;
+    margin-left: 26px;
 }
 
 .dropdown3 button i {
@@ -585,9 +585,9 @@ a.nav-link {
     width: 400px;
     background: transparent;
     border: none;
-    border-left: 2px solid #ff9c1a;
+    border-right: 2px solid #ff9c1a;
     padding: 3px;
-    padding-left: 5px;
+    padding-right: 5px;
     font-size: 16px;
     font-weight: 700;
     color: rgba(60, 60, 67, 0.6);
@@ -608,7 +608,7 @@ a.nav-link {
 
 .menuicon {
     width: 20px;
-    margin-right: 18px;
+    margin-left: 18px;
 }
 
 .navmen {
@@ -1499,7 +1499,7 @@ input:checked+.slider:before {
 }
 
 .digitaltab1contentdiv {
-    max-width: 990px !important;
+    max-width: 975px !important;
     margin-right: auto;
 }
 
@@ -1605,7 +1605,7 @@ input:checked+.slider:before {
 
 .owl-five .owl-nav {
     position: absolute;
-    right: -8px;
+    left: -8px;
     bottom: -60px;
 }
 
@@ -1895,7 +1895,7 @@ input:checked+.slider:before {
 
 .owl-four .owl-nav {
     position: absolute;
-    right: -8px;
+    left: -8px;
     bottom: -60px;
 }
 
