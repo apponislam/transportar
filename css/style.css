@@ -285,6 +285,15 @@ a.nav-link {
 
 .menupopupitems {
     padding: 48px 80px 32px;
+    position: relative;
+}
+
+.popup1close2 {
+    display: inline-block !important;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right: unset !important;
 }
 
 .menupopupitems h1 {
@@ -1010,8 +1019,8 @@ input:checked+.slider:before {
 /* Header Popup 2 End */
 
 .govtlogo {
-    width: 88px;
-    margin-left: 20px;
+    width: 108px;
+    margin-right: 20px;
 }
 
 /* Scroll */
@@ -1250,7 +1259,8 @@ input:checked+.slider:before {
 
 .serviceslidertitilebtn button img {
     width: 24px;
-    margin-left: 6px;
+    margin-right: 6px;
+    transform: rotate(180deg);
 }
 
 .serviceslide1 {
@@ -1564,6 +1574,7 @@ input:checked+.slider:before {
 .digitalarrowbtn img {
     width: 20px !important;
     height: 20px !important;
+    transform: rotate(180deg);
 }
 
 .digitalarrowbtn img {
@@ -2251,8 +2262,9 @@ input:checked+.slider:before {
 
     .owl-one .owl-dots {
         position: absolute;
-        left: 20.5%;
+        left: 59.5%;
         top: 530px;
+        right: 0;
     }
 
     /* ************Digital Services************ */
@@ -2379,7 +2391,7 @@ input:checked+.slider:before {
 
     .owl-one .owl-dots {
         position: absolute;
-        left: 10%;
+        left: 63%;
         top: 345px;
     }
 
@@ -2726,6 +2738,10 @@ input:checked+.slider:before {
         display: flex;
     }
 
+    .popup1close2 {
+        display: none !important;
+    }
+
     /* ************Bottom Menu************ */
 
     /* ************Home Section************ */
@@ -2747,7 +2763,7 @@ input:checked+.slider:before {
 
     .owl-one .owl-dots {
         position: absolute;
-        left: 15%;
+        left: 50%;
         top: 345px;
     }
 
@@ -2968,7 +2984,7 @@ input:checked+.slider:before {
 
     .owl-one .owl-dots {
         position: absolute;
-        left: 10%;
+        left: 50%;
         top: 345px;
     }
 
@@ -3012,12 +3028,16 @@ input:checked+.slider:before {
 
     .photobtns {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-gap: 10px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        padding-bottom: 5px;
     }
 
     .tab-button {
-        width: auto;
+        width: 250px;
     }
 
     /* ************Mobile services************ */
@@ -3274,6 +3294,7 @@ input:checked+.slider:before {
     .topslidepic img {
         display: block;
         width: 100%;
+        height: 64vh;
     }
 
     .topslidetext {
@@ -3293,8 +3314,9 @@ input:checked+.slider:before {
 
     .owl-one .owl-dots {
         position: absolute;
-        left: 10%;
+        left: 20%;
         top: 248px;
+        display: inline-block;
     }
 
     .topslidetext h1 {
@@ -3335,11 +3357,13 @@ input:checked+.slider:before {
     .owl-two .owl-prev {
         position: relative;
         left: 0;
+        transform: rotate(180deg);
     }
 
     .owl-two .owl-next {
         position: relative;
         right: 0;
+        transform: rotate(180deg);
     }
 
     .serviceslidertitilebtn {
